@@ -23,7 +23,7 @@ public class Project {
             boolean exit = false;
             while (!exit) {
                 // now we set our dashboard 
-                System.out.print("Press 1 for rent details || Press 2 for Services || Press 0 to Exit: ");
+                System.out.print("Choose an option (1: Rent Details, 2: Services, 0: Exit): ");
                 int one;
                 try {
                     one = Integer.parseInt(sc.nextLine());
