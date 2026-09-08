@@ -52,7 +52,7 @@ public class Project {
                         }
                         break;
                     case 2:
-                        System.out.println("Welcome to other services");
+                        System.out.println("----- Additional Services -----");
                         System.out.println("1. Cleaning charge - 100Rs");
                         System.out.println("2. Laundry Cleaning - 30Rs");
                         System.out.println("3. Electricity bill - 10/unit");
