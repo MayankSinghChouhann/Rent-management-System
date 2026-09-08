@@ -28,7 +28,7 @@ public class Project {
                 try {
                     one = Integer.parseInt(sc.nextLine());
                 } catch (NumberFormatException e) {
-                    System.out.println("Invalid input. Please enter a number.");
+                    System.out.println("Invalid service selection. Please enter a valid number.");
                     continue;
                 }
 
