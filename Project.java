@@ -101,7 +101,7 @@ public class Project {
                 }
             }
         } else {
-            System.out.println("Invalid username or password. Please try again.");
+            System.out.println("\nInvalid username or password. Please try again.");
         }
 
         sc.close();
