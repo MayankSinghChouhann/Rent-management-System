@@ -77,6 +77,10 @@ public class Project {
                                 int units;
                                 try {
                                     units = Integer.parseInt(sc.nextLine());
+                                    if (units < 0) {
+                                        System.out.println("Units cannot be negative.");
+                                        break;
+                                    }
                                     System.out.println("Total Electricity bill: " + (units * 10) + "Rs.");
                                 } catch (NumberFormatException e) {
                                     System.out.println("Invalid input for units.");
