@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 
 public class Project {
+    private static final String VALID_USERNAME = "mayank";
+
     public static void main(String[] args) {
         // we create a login interface 
         Scanner sc = new Scanner(System.in);
