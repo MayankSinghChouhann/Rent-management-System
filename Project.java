@@ -38,7 +38,7 @@ public class Project {
                         String[] months = {"jan", "feb", "march", "april", "may", "jun", "july", "august", "sep", "oct", "nov", "dec"};
                         System.out.println("----- Rent Details -----");
                         System.out.print("Enter month: ");
-                        String choice = sc.nextLine();
+                        String choice = sc.nextLine().trim();
                         boolean found = false;
                         for (int i = 0; i < months.length; i++) {
                             if (months[i].equalsIgnoreCase(choice)) {
