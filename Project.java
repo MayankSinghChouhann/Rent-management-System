@@ -16,7 +16,7 @@ public class Project {
         System.out.print("Enter Your Password: ");
         String pass = sc.nextLine().trim();
 
-        if (username.equals("mayank") && pass.equals("upes123")) {
+        if (VALID_USERNAME.equalsIgnoreCase(username) && pass.equals("upes123")) {
             System.out.println("User found");
             System.out.println("Welcome Mayank");
 
