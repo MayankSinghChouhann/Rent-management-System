@@ -11,7 +11,7 @@ public class Project {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to our home");
         System.out.print("Enter Your User: ");
-        String username = sc.nextLine();
+        String username = sc.nextLine().trim();
 
         System.out.print("Enter Your Password: ");
         String pass = sc.nextLine();
