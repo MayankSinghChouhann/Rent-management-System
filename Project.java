@@ -1,4 +1,3 @@
-// we make a Rent management System 
 import java.util.Scanner;
 
 
