@@ -83,7 +83,7 @@ public class Project {
                                     }
                                     System.out.println("Total Electricity bill: " + (units * 10) + "Rs.");
                                 } catch (NumberFormatException e) {
-                                    System.out.println("Invalid input for units.");
+                                    System.out.println("Invalid units. Please enter a whole number.");
                                 }
                                 break;
                             default:
