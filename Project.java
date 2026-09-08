@@ -93,7 +93,7 @@ public class Project {
                         break;
                     case 0:
                         exit = true;
-                        System.out.println("Exiting the system. Goodbye!");
+                        System.out.println("Thanks for using the Rent Management System. Goodbye!");
                         break;
                     default:
                         System.out.println("Invalid menu option. Please choose 0, 1, or 2.");
