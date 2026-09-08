@@ -48,7 +48,7 @@ public class Project {
                             }
                         }
                         if (!found) {
-                            System.out.println("Warning || " + choice + " Rent is not deposited yet");
+                            System.out.println("Warning: " + choice + " rent is not deposited yet.");
                         }
                         break;
                     case 2:
