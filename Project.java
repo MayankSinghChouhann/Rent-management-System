@@ -36,7 +36,7 @@ public class Project {
                     case 1:
                         // here user can see their rent deposited status information 
                         String[] months = {"jan", "feb", "march", "april", "may", "jun", "july", "august", "sep", "oct", "nov", "dec"};
-                        System.out.println("Rent Details");
+                        System.out.println("----- Rent Details -----");
                         System.out.print("Enter month: ");
                         String choice = sc.nextLine();
                         boolean found = false;
