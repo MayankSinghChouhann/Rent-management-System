@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Project {
     private static final String VALID_USERNAME = "mayank";
+    private static final String VALID_PASSWORD = "upes123";
 
     public static void main(String[] args) {
         // we create a login interface 
