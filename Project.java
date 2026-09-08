@@ -81,7 +81,7 @@ public class Project {
                                         System.out.println("Units cannot be negative.");
                                         break;
                                     }
-                                    System.out.println("Total Electricity bill: " + (units * 10) + "Rs.");
+                                    System.out.println("Total Electricity bill: " + (units * ELECTRICITY_RATE) + "Rs.");
                                 } catch (NumberFormatException e) {
                                     System.out.println("Invalid units. Please enter a whole number.");
                                 }
