@@ -96,7 +96,7 @@ public class Project {
                         System.out.println("Exiting the system. Goodbye!");
                         break;
                     default:
-                        System.out.println("Invalid option. Please try again.");
+                        System.out.println("Invalid menu option. Please choose 0, 1, or 2.");
                         break;
                 }
             }
